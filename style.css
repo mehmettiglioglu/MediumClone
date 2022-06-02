@@ -1,6 +1,15 @@
 .roundButton{
-    border-radius: 20px;
+    border-radius: 25px;
 }
 .navbarFont{
     font-size: 15px;
+}
+.buttonPadding{
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.margin{
+    margin-left: -30px;
 }

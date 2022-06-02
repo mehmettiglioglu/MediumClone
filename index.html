@@ -12,9 +12,10 @@
 <body style="font-family: Times New Roman;">
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-
+    <!--Sitenin üst kısmının başlangıcı-->
+    <div class="border-bottom border-dark" style="background-color: #FFC017;">
 <!--Navbar Başlangıcı-->
-    <nav style="background-color: #FFC017;" class="navbar navbar-expand-lg navbar-light py-3 ">
+    <nav style="background-color: #FFC017;" class="navbar navbar-expand-lg navbar-light py-3 border-bottom border-dark ">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -43,9 +44,9 @@
     </nav>
       <!--Navbar Bitişi-->
 
-      <div class="container mt-5">
-          <div class="row">
-              <div class="col-6">
+       <div class="container mt-5 border-bottom  ">
+           <div class="row">
+               <div class="col-6">
                   <h1 class="display-1">
                       <strong>Stay curious</strong> 
                   </h1>
@@ -53,14 +54,126 @@
                   <h3>
                     Discover stories, thinking, and expertise from writers on any topic.
                   </h3>
-                  <div class="btn btn-lg btn-dark roundButton">
+                    <div class="btn btn-lg btn-dark roundButton mt-5 buttonPadding">
                       Start reading
-                  </div>
-              </div>
-              <div class="col-6">
-                  <img class="rounded-circle ml-5" src="https://picsum.photos/id/235/400/400" alt="">
+                    </div>
+               </div>
+               <div class="col-6">
+                  <img class="rounded-circle ml-5 mb-3" src="https://picsum.photos/id/235/400/400" alt="">
               </div>
           </div>
       </div>
+    </div>
+    <!--Sitenin üst kısmının bitişi-->
+<!--Trend Kısmı Başlangıcı-->
+    <div class="container mt-4 mb-4">
+      <div class="row">
+        <div class="col-12">
+          <h6>
+            <i class="fa-solid fa-arrow-trend-up"><small class="ml-3"> TRENDING ON MEDIUM</small></i>
+          </h6>   
+        </div>
+      </div>
+    </div>
+<!--Trend Kısmı Bitişi-->
+
+<div class="container">
+  <div class="row">
+    <!--Birinci Article Başlangıcı-->
+    <article class="col-4">
+       <div class="row">
+         <div class="col-1">
+           <h4><b>01</b></h4>
+         </div>
+         <div class="col-11">
+           <img class="rounded-circle float-left mr-2" src="https://picsum.photos/id/23/25/25" alt="">
+           <h6>Arthur Hayes in Entrepreneur's Handbook</h6>
+           <h5> <strong>
+            Shut it Down!
+           </strong>
+           </h5>
+           <ul class="list-unstyled">
+             <li>
+              Jun 2
+              ·
+              18 min read              
+             </li>
+           </ul>
+         </div>
+       </div>
+    </article>
+ <!--Birinci Article Bitişi-->
+
+    <article class="col-4">
+      <!--İkinci Article Başlangıcı-->
+      <div class="row">
+        <div class="col-1">
+          <h4>
+            <b>02</b>
+          </h4>
+        </div>
+        <div class="col-11">
+          <img class="rounded-circle float-left mr-2" src="https://picsum.photos/id/25/25/25" alt="">
+          <h6>
+            Kevin Beaumont
+            in
+            DoublePulsar
+          </h6>
+          <h5>
+           <b>
+            Follina — a Microsoft Office code execution vulnerability
+          </b>         
+          </h5>
+          <ul class="list-unstyled">
+            <li>
+              May 29
+              ·
+              8 min read   <i class="fa-solid fa-star ml-4"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article> 
+    <!--İkinci Article Bitişi-->
+
+    <article class="col-4">
+      <!--Üçüncü Article Başlangıcı-->
+      <div class="row">
+        <div class="col-1">
+          <h4>
+            <b>03</b>
+          </h4>
+        </div>
+        <div class="col-11">
+          <img class="rounded-circle float-left mr-2" src="https://picsum.photos/id/26/25/25" alt="">
+          <h6>
+            umair haque in Eudaimonia and Co
+          </h6>
+          <h5>
+            <b>The Age of Extinction Is Here — Some of Us Just Don’t Know It Yet</b>
+          </h5>
+          <ul class="list-unstyled">
+            <li>
+              May 21 · 8 min read  <i class="fa-solid fa-star ml-4"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </article>
+    <!--Üçüncü Article Bitişi-->
+    <article class="col-4">
+      <div class="row">
+        <div class="col-1">
+          <h4>
+            <b>04</b>
+          </h4>
+        </div>
+        <div class="col-11"></div>
+      </div>
+      
+    </article>
+  </div>
+</div>
 </body>
 </html>
